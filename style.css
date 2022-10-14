@@ -1,6 +1,5 @@
 body {
     margin: 0px;
-    min-height: 200vh;
     width: 100%;
     box-sizing: border-box;
     background-color: #000;
@@ -15,6 +14,21 @@ body {
     position: fixed;
     top: 0px;
     transition: translate .2s linear;
+}
+
+#Home {
+    height: 100vh;
+    background-color: red;
+}
+
+#Skills {
+    height: 100vh;
+    background-color: green;
+}
+
+#Projects {
+    height: 100vh;
+    background-color: blue;
 }
 
 .scrolled {
