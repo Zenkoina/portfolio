@@ -16,21 +16,6 @@ body {
     transition: translate .2s linear;
 }
 
-#Home {
-    height: 100vh;
-    background-color: red;
-}
-
-#Skills {
-    height: 100vh;
-    background-color: green;
-}
-
-#Projects {
-    height: 100vh;
-    background-color: blue;
-}
-
 .scrolled {
     translate: 0px -50px;
 }
@@ -55,4 +40,52 @@ nav a {
 
 nav a:hover {
     opacity: 1;
+}
+
+#Home {
+    height: 100vh;
+    background-color: #222;
+}
+
+#Home h1 {
+    padding-top: 40vh;
+    padding-left: 8%;
+    margin: 0;
+    color: #eee;
+}
+
+p {
+    padding-left: 8%;
+    color: #eee;
+}
+
+#Skills {
+    height: 100vh;
+    background-color: #222;
+}
+
+#Skills h2 {
+    padding-top: 10vh;
+    margin: 0;
+    text-align: center;
+    color: #eee;
+}
+
+#Skills h3 {
+    padding-top: 5vh;
+    padding-bottom: 1vh;
+    padding-left: 8%;
+    color: #eee;
+}
+
+#Projects {
+    height: 100vh;
+    background-color: #222;
+}
+
+#Projects h2 {
+    padding-top: 10vh;
+    margin: 0;
+    text-align: center;
+    color: #eee;
 }
