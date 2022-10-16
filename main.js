@@ -2,7 +2,7 @@ let prevScrollY = window.scrollY
 let lastLinkClick = performance.now()
 
 window.addEventListener('scroll', () => {
-    if ((window.scrollY > prevScrollY || window.innerHeight < 600) && window.scrollY > 50 && performance.now() - lastLinkClick > 50) {
+    if ((window.scrollY > prevScrollY || window.innerHeight < 600) && window.scrollY > 50 && (performance.now() - lastLinkClick > 50 || window.innerHeight < 600)) {
         navbar = document.getElementById('navbar')
         navbar.className = 'scrolled'
     } else {
