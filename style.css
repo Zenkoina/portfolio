@@ -91,6 +91,36 @@ p {
     color: #eee;
 }
 
+#Projects #Links {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    text-align: center;
+}
+
+#Projects #Links ul {
+    width: 100%;
+}
+
+#Projects #Links ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 15px;
+}
+
+#Projects #Links a {
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.75;
+    transition: opacity .1s linear;
+    text-align: center;
+}
+
+#Projects #Links a:hover {
+    opacity: 1;
+}
+
 #footer {
     height: 3em;
     background-color: #111;
